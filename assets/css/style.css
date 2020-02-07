@@ -44,9 +44,41 @@ nav li:last-child {
 }
 
 main {
-  background-color: navy;
+  background-color: papayawhip;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.noticia {
+  width: 100%;
+  max-width: 300px;
+}
+.noticia .cabecera {
+  width: 100%;
+}
+.noticia .cuerpo {
+  width: 100%;
+}
+.noticia__img {
+  background-image: url("https://picsum.photos/200/300?random=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .noticia {
+    width: 30%;
+    max-width: 300px;
+  }
+  .noticia__img {
+    width: 100%;
+    height: 300px;
+  }
+}
 .contenedor {
   margin-left: auto;
   margin-right: auto;
