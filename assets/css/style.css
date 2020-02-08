@@ -14,7 +14,9 @@ body {
 }
 
 nav {
-  background-color: springgreen;
+  background-color: #000000;
+  color: #ffffff;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,13 +33,13 @@ nav li {
   text-decoration: none;
 }
 nav li a {
-  color: royalblue;
+  color: #ffffff;
   text-decoration: none;
   font-size: 0.8rem;
+  padding: 15px;
 }
 nav li a:hover {
-  color: tomato;
-  text-decoration: underline;
+  background-color: #F08080;
 }
 nav li:last-child {
   padding-right: 0;
@@ -84,12 +86,22 @@ main {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: palegoldenrod;
+  background-color: darkcyan;
+  height: auto;
+  width: 90%;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
 
 /* COLUMNAS */
@@ -149,6 +161,14 @@ main {
     background-color: palegoldenrod;
   }
 
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
   .col-sm-12 {
     grid-column: span 12;
   }
@@ -201,6 +221,14 @@ main {
   .contenedor {
     width: 750px;
     background-color: palegreen;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-block {
+    display: block;
   }
 
   .col-md-12 {
@@ -257,6 +285,14 @@ main {
     background-color: paleturquoise;
   }
 
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
   .col-lg-12 {
     grid-column: span 12;
   }
@@ -309,6 +345,14 @@ main {
   .contenedor {
     width: 1170px;
     background-color: palevioletred;
+  }
+
+  .d-xl-none {
+    display: none;
+  }
+
+  .d-xl-block {
+    display: block;
   }
 
   .col-xl-12 {
@@ -364,7 +408,20 @@ footer {
 }
 
 aside {
-  background-color: mediumvioletred;
+  background-color: #c4d0f5;
+}
+aside__listado-tags__button {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+}
+aside__listado-tags__button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+aside__listado-tags__button a:hover {
+  background-color: #f08080;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
 nav {
-    background-color: springgreen;
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,13 +19,13 @@ nav {
         text-decoration: none;
 
         a {
-            color: royalblue;
+            color: #ffffff;
             text-decoration: none;
             font-size: 0.8rem;
+            padding: 15px;
 
             &:hover {
-                color: tomato;
-                text-decoration: underline;
+                background-color: #F08080;
             }
         }
 
