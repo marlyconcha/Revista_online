@@ -427,7 +427,7 @@ aside {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 300px;
+  width: 180px;
   margin-bottom: 20px;
 }
 .aside__tags-link {
@@ -439,7 +439,7 @@ aside {
   box-sizing: border-box;
   border-bottom: 1px solid #1e1b1b;
   text-align: center;
-  width: 300px;
+  width: 150px;
   padding: 5px 0px;
 }
 .aside__tags-link:hover {
@@ -452,23 +452,15 @@ aside {
   background-color: #ce0f3d;
   padding-top: 40px;
   padding-bottom: 20px;
-  height: 100%;
 }
 
 @media (min-width: 768px) {
   .newsletter {
     text-align: center;
-    background-color: #ce0f3d;
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-}
-@media (min-width: 1200px) {
-  .newsletter {
-    text-align: center;
     background-color: lightgrey;
     padding-top: 40px;
     padding-bottom: 20px;
+    margin-top: 70px;
   }
 }
 
