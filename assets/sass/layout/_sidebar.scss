@@ -1,3 +1,37 @@
 aside {
   background-color: #c4d0f5;
+  padding: 20px;
+  display: flex;
+}
+
+.tags {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+}
+
+.tags ul {
+  padding: 0;
+  list-style: none;
+  background-color: red;
+  width: 300px;
+}
+
+  .tags ul li {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 200px;
+
+      a {
+      background-color: yellow;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0 130px;
+
+      &:hover {
+          background-color: hotpink;
+          
+    }
+  }
 }

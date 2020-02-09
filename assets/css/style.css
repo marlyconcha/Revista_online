@@ -409,19 +409,36 @@ footer {
 
 aside {
   background-color: #c4d0f5;
+  padding: 20px;
+  display: flex;
 }
-aside__listado-tags__button {
-  display: block;
-  text-decoration: none;
-  padding: 15px;
+
+.tags {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
-aside__listado-tags__button a {
+
+.tags ul {
+  padding: 0;
+  list-style: none;
+  background-color: red;
+  width: 300px;
+}
+
+.tags ul li {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 200px;
+}
+.tags ul li a {
+  background-color: yellow;
   color: #ffffff;
   text-decoration: none;
-  font-size: 0.8rem;
+  padding: 0 130px;
 }
-aside__listado-tags__button a:hover {
-  background-color: #f08080;
+.tags ul li a:hover {
+  background-color: hotpink;
 }
 
 /*# sourceMappingURL=style.css.map */
