@@ -1,16 +1,26 @@
 .newsletter {
     text-align: center;
     background-color: #ce0f3d;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 40px 0px;
   }  
+
+  .newsletter h2 {
+    font-size: 24px
+}
+
+.group button {
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 5px 7px;
+}
+
+.group input {
+  height: 22px;
+}
 
 @media (min-width: 768px) {    
     .newsletter {
     text-align: center;
-    background-color: lightgrey;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-top: 70px;
-}
+    background-color: #ce0f3d;
+  }
 }
