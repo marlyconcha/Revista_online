@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap" rel="stylesheet');
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
     width: 100%;
 } */
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
 
@@ -39,14 +39,14 @@ nav li a {
   padding: 15px;
 }
 nav li a:hover {
-  background-color: #F08080;
+  background-color: #ce0f3d;
 }
 nav li:last-child {
   padding-right: 0;
 }
 
 main {
-  background-color: papayawhip;
+  background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -404,13 +404,15 @@ main {
   }
 }
 footer {
-  background-color: salmon;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
 }
 
 aside {
-  background-color: #c4d0f5;
-  padding: 20px;
-  display: flex;
+  background-color: #ffcc00;
+  padding: 10px 20px;
 }
 
 .tags {
@@ -418,27 +420,37 @@ aside {
   border-bottom: 1px solid gray;
 }
 
-.tags ul {
-  padding: 0;
-  list-style: none;
-  background-color: red;
+.aside__tags {
+  color: #ffffff;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 300px;
+  margin-bottom: 20px;
+}
+.aside__tags-link {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1e1b1b;
+  text-align: center;
+  width: 300px;
+  padding: 5px 0px;
+}
+.aside__tags-link:hover {
+  background-color: #ce0f3d;
+  border-bottom: 1px solid #ce0f3d;
 }
 
-.tags ul li {
-  color: white;
-  text-align: center;
-  border-bottom: 1px solid gray;
-  width: 200px;
-}
-.tags ul li a {
-  background-color: yellow;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0 130px;
-}
-.tags ul li a:hover {
-  background-color: hotpink;
+.newsletter {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

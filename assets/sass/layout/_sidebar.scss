@@ -1,37 +1,38 @@
 aside {
-  background-color: #c4d0f5;
-  padding: 20px;
-  display: flex;
+  background-color:#ffcc00;
+  padding: 10px 20px;
 }
 
 .tags {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-
 }
 
-.tags ul {
-  padding: 0;
-  list-style: none;
-  background-color: red;
+.aside__tags {
+  color: #ffffff;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 300px;
-}
+  margin-bottom: 20px;
 
-  .tags ul li {
-  color: white;
-  text-align: center;
-  border-bottom: 1px solid gray;
-  width: 200px;
+  &-link {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #1e1b1b;
+    text-align: center;
+    width: 300px;
+    padding: 5px 0px;
 
-      a {
-      background-color: yellow;
-      color: #ffffff;
-      text-decoration: none;
-      padding: 0 130px;
-
-      &:hover {
-          background-color: hotpink;
-          
+    &:hover {
+      background-color: #ce0f3d;
+      border-bottom: 1px solid #ce0f3d;
     }
   }
 }
